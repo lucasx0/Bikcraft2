@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
 }
 
 h1,ul,p{
@@ -105,6 +106,7 @@ position: absolute;
 .introducao-bg{
   background: #000000;
   color: #ffffff;
+  box-shadow: inset 0 -120px #ffffff;
 }
 
 .introducao{
@@ -121,7 +123,16 @@ position: absolute;
 
 .introducao-conteudo{
   align-self: end;
-  padding: 80px;
+  padding: 200px;
+
+}
+
+
+
+.introducao img{
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .introducao h1{
