@@ -20,6 +20,15 @@
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
 
+.bota.secundario{
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.bota.secundario:hover{
+  background: var(--cor-9);
+}
+
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
